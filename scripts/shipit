@@ -11,11 +11,11 @@ elif [ $1 == "prod" ]
     if [[ -z $2 ]]
       then
         echo "Running dry-run"
-        rsync --dry-run -az --force --delete --progress --exclude-from=rsync_exclude.txt -e "ssh -p22" ../../ craig@craigsc.com:/var/www/craigsc.com
+        rsync --dry-run -az --force --delete --progress --exclude-from=rsync_exclude.txt -e "ssh -p22" ../ craig@craigsc.com:/var/www/craigsc.com
     elif [ $2 == "go" ]
       then
         echo "Running actual deploy"
-        rsync -az --force --delete --progress --exclude-from=rsync_exclude.txt -e "ssh -p22" ../../ craig@craigsc.com:/var/www/craigsc.com
+        rsync -az --force --delete --progress --exclude-from=rsync_exclude.txt -e "ssh -p22" ../ craig@craigsc.com:/var/www/craigsc.com
     else
       echo "Error: Unknown deploy target provided.";
     fi
