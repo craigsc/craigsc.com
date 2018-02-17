@@ -1,0 +1,79 @@
+h1 { 
+  color: #111; 
+  font-family: 'Helvetica Neue', sans-serif; 
+  font-size: 100px; 
+  font-weight: bold; 
+  letter-spacing: -1px; 
+  line-height: 1; 
+  text-align: center; 
+  margin-top: 1em;
+}
+
+h2 { 
+  color: #111; 
+  font-family: 'Open Sans', sans-serif; 
+  font-size: 30px; 
+  font-weight: 300; 
+  line-height: 32px; 
+  margin: 0 0 72px; 
+  text-align: center; 
+}
+
+p { 
+  color: #111; 
+  font-family: 'Helvetica Neue', sans-serif; 
+  font-size: 14px; 
+  line-height: 24px; 
+  margin: 0 0 24px; 
+  text-align: justify; 
+  text-justify: inter-word; 
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  color: #111; 
+  font-family: 'Helvetica Neue', sans-serif; 
+  font-size: 20px; 
+  line-height: 29px; 
+  margin: 0 0 29px; 
+  text-align: center; 
+  text-justify: inter-word; 
+}
+
+li {
+  display: inline;  
+  font-weight: 500;
+  padding: 10px 40px;
+}
+
+a {
+  text-decoration: none;  
+  color: inherit; 
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+#tagline {
+  max-width: 500px;
+  margin: auto;
+}
+
+#fb {
+  color: #3b5998;
+}
+
+#github {
+  color: #4dc247;
+}
+
+#linkedin {
+  color: #0077B5;
+}
+
+#email {
+  color: #dd4b39;
+}
