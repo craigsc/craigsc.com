@@ -29,45 +29,55 @@
     </script>
   </head>
   <body>
-    <ul>
-      
-      
-        
-          <li>
-            <a href="/" >
-              Home
-            </a>
-          </li>
-        
-      
-        
-          <li>
-            <a href="/about" >
-              About me
-            </a>
-          </li>
-        
-      
-        
-          <li>
-            <a href="/projects" >
-              Projects
-            </a>
-          </li>
-        
-      
-        
-          <li>
-            <a href="/contact" class="active">
-              Contact
-            </a>
-          </li>
-        
-      
-    </ul>
+    <nav class="navbar navbar-expand-sm navbar-light bg-white nav-shadow mb-5">
+      <div class="container">
+        <a class="navbar-brand mb-0 font-weight-bold hover-bounce" href="/">Hi, I'm Craig</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarItems" aria-controls="navbarItems" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
 
-    <main role="main" class="container">
-      contact
+        <div class="collapse navbar-collapse" id="navbarItems">
+          <ul class="navbar-nav ml-auto">
+            
+            
+              
+            
+              
+                <li class="nav-item">
+                  <a href="/about" class="nav-link px-4">
+                    About me
+                  </a>
+                </li>
+              
+            
+              
+                <li class="nav-item">
+                  <a href="/projects" class="nav-link px-4">
+                    Projects
+                  </a>
+                </li>
+              
+            
+              
+                <li class="nav-item active">
+                  <a href="/contact" class="nav-link px-4">
+                    Contact <span class="sr-only">(current)</span>
+                  </a>
+                </li>
+              
+            
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <main role="main" class="container pb-5">
+      <ul>
+  <li id="fb"><a href="http://fb.me/craig">facebook</a></li>
+  <li id="github"><a href="http://github.com/craigsc">github</a></li>
+  <li id="linkedin"><a href="https://www.linkedin.com/in/craigsc">linkedin</a></li>
+  <li id="email"><a href="mailto:craig@craigsc.com?subject=Hi Craig">contact</a></li>
+</ul>
 
     </main>
 

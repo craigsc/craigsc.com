@@ -10,7 +10,7 @@
     <meta name="keywords" content="Craig Campbell, Craig, Campbell, Software, Engineer, Programming, Coding">
     <link rel="icon" href="favicon.ico">
 
-    <title>Craig Campbell - Home</title>
+    <title>Craig Campbell</title>
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
@@ -29,54 +29,87 @@
     </script>
   </head>
   <body>
-    <ul>
-      
-      
-        
-          <li>
-            <a href="/" class="active">
-              Home
-            </a>
-          </li>
-        
-      
-        
-          <li>
-            <a href="/about" >
-              About me
-            </a>
-          </li>
-        
-      
-        
-          <li>
-            <a href="/projects" >
-              Projects
-            </a>
-          </li>
-        
-      
-        
-          <li>
-            <a href="/contact" >
-              Contact
-            </a>
-          </li>
-        
-      
-    </ul>
+    <nav class="navbar navbar-expand-sm navbar-light bg-white nav-shadow mb-5">
+      <div class="container">
+        <a class="navbar-brand mb-0 font-weight-bold hover-bounce" href="/">Hi, I'm Craig</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarItems" aria-controls="navbarItems" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
 
-    <main role="main" class="container">
-      <h1>Hi, I'm Craig.</h1>
-<div id="tagline">
-  <h2>Currently building at Facebook. Passionate Mobile & Web engineer. Hacker at heart.</h2>
+        <div class="collapse navbar-collapse" id="navbarItems">
+          <ul class="navbar-nav ml-auto">
+            
+            
+              
+            
+              
+                <li class="nav-item">
+                  <a href="/about" class="nav-link px-4">
+                    About me
+                  </a>
+                </li>
+              
+            
+              
+                <li class="nav-item">
+                  <a href="/projects" class="nav-link px-4">
+                    Projects
+                  </a>
+                </li>
+              
+            
+              
+                <li class="nav-item">
+                  <a href="/contact" class="nav-link px-4">
+                    Contact
+                  </a>
+                </li>
+              
+            
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <main role="main" class="container pb-5">
+      <div class="row justify-content-center">
+  <div class="col-md-10 text-center">
+    <h1>Fullstack product builder.<br>Angel investor.<br>Hacker at heart.</h1>
+    <p class="mt-3 text-muted">Currently <span class="text-success">Growth</span> at <span class="fb-blue">Facebook</span>.</p>
+  </div>
 </div>
-<ul>
-  <li id="fb"><a href="http://fb.me/craig">facebook</a></li>
-  <li id="github"><a href="http://github.com/craigsc">github</a></li>
-  <li id="linkedin"><a href="https://www.linkedin.com/in/craigsc">linkedin</a></li>
-  <li id="email"><a href="mailto:craig@craigsc.com?subject=Hi Craig">contact</a></li>
-</ul>
+
+<div class="row justify-content-center mt-5">
+
+  <div class="col-md-5 bg-light py-4 mt-4 rounded">
+    <div class="mb-4 text-center">
+      <h5 title="Interested in grabbing coffee or beer?">
+        Join my Friends & Family list for early access to future projects.
+      </h5> 
+      <p class="small text-muted">No spam, promise.</p>
+    </div>
+    <form class="form-email">
+      <div class="row justify-content-center no-gutters">
+        <div class="form-label-group col">
+          <input type="email" id="inputEmail" class="form-control form-control-sm" placeholder="Email address" required>
+          <label for="inputEmail">Email address</label>
+        </div>
+        <button class="btn btn-success col-auto px-2" type="submit">Submit</button>
+      </div>
+    </form>
+  </div>
+
+  <div class="col-md-5 text-center bg-light py-4 offset-md-1 mt-4 rounded pb-5">
+    <div class="mb-4">
+      <h5 title="Want to grab coffee or beer?">
+        Want to grab ☕ or 🍺?
+      </h5> 
+      <p class="small">I'm always game to talk tech and investing.<br><span class="text-muted small">(especially consumer Fintech, AI, and crypto)</span></p>
+    </div>
+    <a class="btn btn-outline-primary email-me-btn" href="mailto:craig@craigsc.com?subject=Hi Craig" role="button" target="_blank">Email me</a>
+  </div>
+
+</div>
 
     </main>
 
