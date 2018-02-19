@@ -25,3 +25,5 @@ My major areas of investments tend to be in consumer software, with a large focu
 *Experienced teams with a ruthless vision and data-driven approach tend to win.* 
 
 Think you have something interesting to share? [Reach out!](/contact)
+
+{% include coffee_upsell.html %}
