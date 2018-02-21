@@ -5,7 +5,7 @@ permalink: /about
 navigation_weight: 2
 ---
 #### Background
-I'm a full-stack mobile & web engineer turned manager. I've been shipping products for over 12 years and am obsessed with building things that people love and use every day. I spent the majority of my career building, scaling, and supporting the Search engine, product, and org at Facebook. Most recently, I have been building and supporting a specialized Growth team (also at Facebook).
+I'm a full-stack mobile & web engineer turned manager. I've been shipping products for over 12 years and am obsessed with building things that people love and use every day. I have spent the majority of my career helping to build, scale, and support the Search product and org at Facebook. Most recently, I have been building and supporting a specialized Growth team (also at Facebook).
 
 I currently live in Redwood City, California, with my wife and our cat.
 
@@ -15,7 +15,7 @@ My favorite technology at the moment to build with:
   - React / react native
   - GraphQL
   - Native Android
-  - Jekyll (this site is built using this!)
+  - Jekyll (this site is built on it!)
 
 I've also been focusing recently on ML (especially on-device mobile vision) as well as crypto (more on the tooling side).
 
