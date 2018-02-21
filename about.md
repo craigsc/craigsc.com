@@ -18,6 +18,8 @@ My major areas of investments tend to be in consumer software, with a large focu
 Think you have something interesting to share? [Reach out!](/contact)
 
 <br>
+<div class="row justify-content-center">
+  <div class="col-auto" markdown="1">
 #### Follow me across the web:
   - [Twitter](https://twitter.com/craig_campbell) → short ramblings
   - [AngelList](https://angel.co/craig-campbell) → talk investments
@@ -25,5 +27,7 @@ Think you have something interesting to share? [Reach out!](/contact)
   - [LinkedIn](https://www.linkedin.com/in/craigsc) → do I have a job?
   - [Facebook](https://facebook.com/craigcampbell) → longer ramblings
   - [Product Hunt](https://www.producthunt.com/@ccampbell) → product interests
+  </div>
+</div>
 
 {% include coffee_upsell.html %}
