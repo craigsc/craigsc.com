@@ -9,21 +9,21 @@ I'm a full-stack mobile & web engineer turned manager. I've been shipping produc
 
 I currently live in Redwood City, California, with my wife and our cat.
 
-#### Technology
-My favorite technology at the moment to build with:
-  - Python + Flask
-  - React / react native
-  - GraphQL
-  - Native Android
-  - Jekyll (this site is built on it!)
-
-I've also been focusing recently on ML (especially on-device mobile vision) as well as crypto (more on the tooling side).
-
+<br>
 #### Investments
 My major areas of investments tend to be in consumer software, with a large focus on FinTech and AI. My investing thesis is pretty simple - 
 
 *Experienced teams with a ruthless vision and data-driven approach tend to win.* 
 
 Think you have something interesting to share? [Reach out!](/contact)
+
+<br>
+#### Follow me across the web:
+  - [Twitter](https://twitter.com/craig_campbell) → short ramblings
+  - [AngelList](https://angel.co/craig-campbell) → talk investments
+  - [GitHub](https://github.com/craigsc) → read my code
+  - [LinkedIn](https://www.linkedin.com/in/craigsc) → do I have a job?
+  - [Facebook](https://facebook.com/craigcampbell) → longer ramblings
+  - [Product Hunt](https://www.producthunt.com/@ccampbell) → product interests
 
 {% include coffee_upsell.html %}
