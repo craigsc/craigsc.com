@@ -10,7 +10,15 @@ I'm a full-stack mobile & web engineer turned manager. I've been shipping produc
 I currently live in Redwood City, California, with my wife and our cat.
 
 <br>
-#### Investments
+#### Technology
+My background is full-stack web and mobile product development. I also dabble with machine learning for fun. My current favorite technologies to build with:
+  - Python + Flask
+  - React + React Native
+  - Native Android (still love me some good ole java)
+  - Jekyll (this site is build using it!)
+
+<br>
+#### Investing
 My major areas of investments tend to be in consumer software, with a large focus on FinTech and AI. My investing thesis is pretty simple - 
 
 *Experienced teams with a ruthless vision and data-driven approach tend to win.* 
