@@ -21,12 +21,12 @@ Think you have something interesting to share? [Reach out!](/contact)
 <div class="row justify-content-center">
   <div class="col-auto" markdown="1">
 #### Follow me across the web:
-  - [Twitter](https://twitter.com/craig_campbell) → short ramblings
-  - [AngelList](https://angel.co/craig-campbell) → talk investments
-  - [GitHub](https://github.com/craigsc) → read my code
-  - [LinkedIn](https://www.linkedin.com/in/craigsc) → do I have a job?
-  - [Facebook](https://facebook.com/craigcampbell) → longer ramblings
-  - [Product Hunt](https://www.producthunt.com/@ccampbell) → product interests
+  - [Twitter](https://twitter.com/craig_campbell){:target="_blank"} → short ramblings
+  - [AngelList](https://angel.co/craig-campbell){:target="_blank"} → talk investments
+  - [GitHub](https://github.com/craigsc){:target="_blank"} → read my code
+  - [LinkedIn](https://www.linkedin.com/in/craigsc){:target="_blank"} → do I have a job?
+  - [Facebook](https://facebook.com/craigcampbell){:target="_blank"} → longer ramblings
+  - [Product Hunt](https://www.producthunt.com/@ccampbell){:target="_blank"} → product interests
   </div>
 </div>
 
