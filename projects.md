@@ -2,7 +2,6 @@
 layout: page
 title: Projects
 permalink: /projects
-navigation_weight: 1
 ---
   - Fig - Feedback engine for side projects
   - Psst - Full featured Secret clone backed by the Facebook graph
