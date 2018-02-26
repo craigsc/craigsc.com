@@ -33,6 +33,32 @@ body {
 .hover-bounce:hover {
   animation: bounce 0.75s;
 }
+@media (max-width: 992px) {
+  .main-header {
+    font-size: 2.1rem;
+  }
+}
+@media (max-width: 768px) {
+  .main-header {
+    font-size: 1.9rem;
+  }
+}
+@media (max-width: 538px) {
+  .main-header {
+    font-size: 1.25rem;
+  }
+  .mini-header {
+    font-size: 1rem;
+  }
+}
+@media (max-width: 365px) {
+  .main-header {
+    font-size: 1rem;
+  }
+  .mini-header {
+    font-size: 0.85rem;
+  }
+}
 .email-me-btn {
   position: absolute;
   bottom: 0;
