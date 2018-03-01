@@ -133,3 +133,26 @@ body {
   line-height: 60px;
   overflow: hidden;
 }
+.image-box {
+  position: relative;
+  overflow: hidden;
+  padding-bottom: 100%;
+}
+.image-box img {
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+.image-box img.landscape {
+  height: 100%;
+  max-width: none;
+  left: -2%;
+}
+.img-thumbnail {
+  transition: border .2s ease-in-out;
+  -webkit-transition: border .2s ease-in-out;
+  -o-transition: border .2s ease-in-out;
+}
+.img-thumbnail:hover {
+  border-color: #007bff;
+}

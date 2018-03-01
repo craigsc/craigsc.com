@@ -1,7 +1,9 @@
 ---
 name: Fig
 tagline: A minimalistic feedback system
-image_src:
+image_src: /assets/fig_square.png
+image_landscape: true 
+image_style: left&#58;-2%
 weight: 0
 link: https://www.usefig.com
 github: https://github.com/craigsc/fig.js

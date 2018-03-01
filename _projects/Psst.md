@@ -1,9 +1,8 @@
 ---
 name: Psst
-tagline: Android clone of Secret
-image_src:
+tagline: Android clone of [Secret](https://en.wikipedia.org/wiki/Secret_(app)){:target="_blank"}
+image_src: /assets/psst.jpeg
 weight: 20
-link: https://www.usefig.com
-github: https://github.com/craigsc/fig.js
+github: https://github.com/craigsc/psst
 ---
-Simple, clean, and customizeable feedback system geared towards side projects and small teams. No account required, and integration on existing webapps takes all of 30 seconds to complete. I use this on almost all of my projects to gather quick feedback from users and have found it invaluable.
+A full-featured and fully functioning clone of the formerly popular Secret app. I had decided to take on the challenge of porting the app to Android when it was still iOS only, and built it from the ground up in a few weekends. This was a native android app, integrating with the Facebook SDK for the login and graph as well as with Parse (RIP) for the backend. Never launched as it was just a challenge to myself.

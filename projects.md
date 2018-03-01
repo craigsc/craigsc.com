@@ -6,10 +6,21 @@ navigation_weight: 1
 ---
 {% assign projects = site.projects | sort: 'weight' %}
 {% for project in projects %}
+{% if project.link %}
+  {% assign primary_link = project.link %}
+{% else %}
+  {% assign primary_link = project.github %}
+{% endif %}
 <div class="row mb-5 align-items-center">
   <div class="col-sm-4 text-center">
     {% if project.image_src %}
-    <img class="rounded img-fluid" src="{{ project.image_src }}" /> 
+      <a href="{{ primary_link }}" target="_blank">
+        <div class="img-thumbnail">
+        <div class="image-box rounded">
+          <img class="img-fluid{% if project.image_landscape %} landscape{% endif %}" src="{{ project.image_src }}" {% if project.image_style %}style="{{ project.image_style }}"{% endif %} /> 
+        </div>
+        </div>
+      </a>
     {% else %}
     <img class="rounded img-fluid" src="http://via.placeholder.com/350x350" /> 
     {% endif %}
@@ -18,7 +29,7 @@ navigation_weight: 1
     <h5>
       {{ project.name }}
       {% if project.tagline %}
-        <br><small>{{ project.tagline }}</small>
+        <br><small markdown="1">{{ project.tagline }}</small>
       {% endif %}
     </h5>
     <div>
