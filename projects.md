@@ -12,7 +12,7 @@ navigation_weight: 1
   {% assign primary_link = project.github %}
 {% endif %}
 <div class="row mb-5 align-items-center">
-  <div class="col-sm-4 text-center">
+  <div class="col-10 offset-1 offset-sm-0 col-sm-5 col-md-4 text-center mb-3">
     {% if project.image_src %}
       <a href="{{ primary_link }}" target="_blank">
         <div class="img-thumbnail">
@@ -25,7 +25,7 @@ navigation_weight: 1
     <img class="rounded img-fluid" src="http://via.placeholder.com/350x350" /> 
     {% endif %}
   </div>
-  <div class="col-sm-8 small">
+  <div class="col-10 offset-1 offset-sm-0 col-sm-7 col-md-8 small">
     <h5>
       {{ project.name }}
       {% if project.tagline %}

@@ -71,6 +71,7 @@ body {
 .form-email {
   margin: 0 auto;
   padding: 0 15px;
+  max-width: 400px;
 }
 .form-label-group {
   position: relative;
